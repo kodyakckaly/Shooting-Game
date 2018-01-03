@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MR. PANDA GAMES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/game.js" type="text/javascript"></script>
+    <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-container {
+      /*background-image: url("images/img_tree.png");
+      background-repeat: no-repeat;*/
+      background-color: #1abc9c;  /*  */
+      color: #ffffff;
+  }
+  .bg-footer {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 5px;
+      padding-bottom: 70px;
+  }
+  </style>
+</head>
+<body onload="game.init()">
+<!-- Container -->
+<div class="container-fluid bg-container text-center">
+  <h1 class="margin">G A M E S<BR><BR> M R.  P A N D A  I T</h1>
+ <!-- ALERT -->
+  <div class="alert alert-info">
+    <strong>Info!</strong> With the SPACE BAR you can shoot and with the ARROWS you can move to the left or right.
+  </div>
+  <!-- GAME -->
+  <div class="juego">
+      <canvas id="canvas" width="600" height="650">Your browser isn't compatible!</canvas>
+  </div>
+
+  <h3>This is a game test developed by Mr. Panda IT development team.</h3>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-footer text-center">
+  <p>@mrpandait</a></p>
+</footer>
+</body>
+</html>
